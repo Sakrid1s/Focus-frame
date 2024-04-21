@@ -1,0 +1,60 @@
+<section class="signup container" id="signup">
+  <div class="signup-block-1">
+    <h2 class="signup-header">Sign<span class="signup-span"> UP</span></h2>
+    <p class="signup-text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form class="signup-form">
+      <input
+        type="text"
+        class="input-name"
+        name="user-name"
+        placeholder="Enter your name"
+        pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\s\.'\-]+$"
+        title="Enter a valid name"
+        required
+      />
+      <input
+        type="email"
+        class="input-email"
+        name="user-email"
+        placeholder="Enter your email"
+        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+        title="Enter a valid email address"
+        required
+      />
+      <textarea
+        class="input-message"
+        name="user-message"
+        placeholder="Message"
+        required
+      ></textarea>
+      <button type="submit" class="signup-button">Send</button>
+      <p class="privacy-policy">
+        By clicking on “Send” button, you agree to our
+        <a href="" class="privacy-link">Privacy Policy, </a> and allow Promodo
+        to use this information for marketing purposes.
+      </p>
+    </form>
+  </div>
+  <div class="signup-block-2">
+    <picture class="signup-img1">
+      <source
+        srcset="/img/sign-up/obiettivo.png 1x, /img/sign-up/obiettivo-2x.png 2x"
+        media="(min-width:1280px)" />
+      <img
+        class="signup-foto1"
+        src="/img/sign-up/obiettivo.png"
+        alt="Foto camera"
+    /></picture>
+  </div>
+  <div class="signup-block-3">
+    <picture class="signup-img2">
+      <source
+        srcset="/img/sign-up/camera.png 1x, /img/sign-up/camera-2x.png 2x"
+        media="(min-width:1280px)" />
+      <img class="signup-foto2" src="/img/sign-up/camera.png" alt="Foto camera"
+    /></picture>
+  </div>
+</section>
